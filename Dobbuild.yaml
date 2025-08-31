@@ -15,7 +15,7 @@ environment:
   DOCKER_PASSWORD:    { value: crowstore://dockerpassword }
   GMAIL_PASSWORD:    { value: crowstore://gmailpassword }
   APP_IMAGE:    { value: crowstore://appimage }
-  IMAGE:    { value: crowstore://appfullimage }
+
   # Either use a literal branch…
   #B     { value: "main" }
 
@@ -33,7 +33,7 @@ environment:
   CROWSTORE_TOKEN_DOCKERPASSWORD: { value: e1d55acd7bdd5c53adf302e71b05baf9 }
   CROWSTORE_TOKEN_GMAILPASSWORD:  { value: dac8e6153a018d7e37a99eacd37ed2b1 }
   CROWSTORE_TOKEN_APPIMAGE:  { value: 3ddad14c814d1395aa5fc6c2f40b221c }
-  CROWSTORE_TOKEN_APPIMAGE:    { value: 9dd69f8e14cc33c892a4ed408a9427dd }
+
 
   # Only needed if you use crowstore://gitbranch above:
   #CROWSTORE_TOKEN_GITBRANCH: { value: f4e9076b9dc189ad06dfc485fd731bf7 }

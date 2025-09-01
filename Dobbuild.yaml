@@ -110,7 +110,7 @@ jobs:
       file_converter:
         enabled: false
         inputs:
-          - /tmp/crow/reports/filesystem-.-20250829-062515.json
+          - /tmp/crow/reports/filesystem-.-2025.json
         output_dir: /tmp/crow/converted
         formats: [md]     # any subset: md | txt | html
         max_items: 100

@@ -148,7 +148,7 @@ jobs:
       docker_build:
         enabled: true
         image_name: env=APP_IMAGE
-        build_tag: V0.0.62
+        build_tag: V0.0.63
         dockerfile_path: env=DOCKERFILE_PATH      
 
   - name: Trivy Image (private)
@@ -206,6 +206,6 @@ jobs:
         enabled: true
         provider: azure
         image_name: env=APP_IMAGE
-        image_tag: V0.0.62
+        image_tag: V0.0.63
         username: env=DOCKER_USERNAME
         password: env=DOCKER_PASSWORD       
